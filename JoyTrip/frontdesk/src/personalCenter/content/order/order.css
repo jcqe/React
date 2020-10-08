@@ -1,0 +1,34 @@
+.peorderbox {
+	width: 1200px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.peorders {
+	width: 300px;
+	height: 250px;
+	background-color: #F0F0F0;
+	/* height: 100px; */
+	margin: 10px auto;
+	box-sizing: border-box;
+}
+.peorders > div {
+	width: 100%;
+	height: 20px;
+	padding-left: 40px;
+}
+.hotel-or > div:nth-child(9),.ticket-or > div:nth-child(10){
+	text-align: center;
+	background-color: #ff9d00;
+	color: #ffffff;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	padding:0;
+	margin: 10px auto;
+	cursor: pointer;
+}
+.hotel-or > div:nth-child(9) {
+	margin-top: 30px;
+}
